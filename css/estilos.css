@@ -1,0 +1,109 @@
+
+/*Google Fonts*/
+ @import url('https://fonts.googleapis.com/css2?family=Agbalumo&display=swap') ;
+
+/* Normalize*/
+
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+}
+/*Variables*/
+:root
+{
+
+/*colores*/
+
+/* Gradientes*/
+
+
+/*fuentes*/
+--titulo:"Agbalumo";
+}/*
+ Animaciones*/
+@Keyframes Degradado
+{ 
+    from {background-color: rgb(131, 58, 180);}
+  to {background-color:rgba(252,176,69,1);}
+}
+
+
+    /* indica las transformaciones que se producen en el objeto. Se repite las veces que se desee*/
+
+a
+{
+Text-decoration:none;
+Color:black;
+}
+body
+{
+    width: 100%;
+    height: 100%;
+    background-color:pink;
+}
+.precios
+{
+    text-align: center;
+    font-family: var(--titulo);
+    font-size: 2rem;
+    height: 100px;
+    padding-top: 20px;
+    animation-name: Degradado;
+    animation-duration: 6s;
+    animation-iteration-count: infinite;
+    
+}
+main
+{
+    width: 100%;
+    height: 100%;
+}
+.productos
+{
+    background: linear-gradient(90deg, rgb(131, 58, 180) 0%, rgba(253,29,29,1) 50%, rgba(252,176,69,1) 100%);
+    display:flex;
+    flex-flow: wrap;
+    justify-content: space-around;
+    gap:100px;
+    
+}
+.plantilla
+{
+    margin: 100px 0 100px 0;
+}
+
+.descripcion
+{
+    height: 50px;    
+    background-color: blanchedalmond;
+    text-align: center;
+    font-family: var(--titulo);
+    padding-top: 10px;
+    
+}
+
+
+.piePagina
+{
+    height: 50px;
+    background-color: blanchedalmond;
+    display: flex;
+    flex-direction: row;
+}
+.valor
+{
+    margin: 10px 10px;
+}
+.comprar
+{
+    background-color:palevioletred;
+    border-radius: 20px;
+    margin-left:60px;
+    border:0;
+
+}
+.comprar:hover
+{
+    box-shadow: blue 5px 5px 15px;
+}
